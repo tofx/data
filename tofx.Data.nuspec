@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tofx.Data</id>
+    <version>3.0.0</version>
+    <title>TOFX Data Services</title>
+    <authors>Jeff Chu @ K.NET</authors>
+    <owner>tofx</owner>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TOFX Data Services.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="tofx.Core.Abstractions" version="3.0.0" />
+        <dependency id="tofx.Core.Configuration" version="3.0.0" />
+        <dependency id="tofx.Core.Configuration.DotNet" version="3.0.0" />
+        <dependency id="tofx.Core.DependencyInjection" version="3.0.0" />
+        <dependency id="tofx.Core.Infrastructure" version="3.0.0" />
+        <dependency id="tofx.Core.Utils" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Data\bin\Debug\tofx.Data.dll" target="lib\net462\tofx.Data.dll" />
+    <file src="Data\bin\Debug\tofx.Data.pdb" target="lib\net462\tofx.Data.pdb" />
+  </files>
+</package>

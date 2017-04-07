@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tofx.Data.Providers.SqlServer</id>
+    <version>3.0.0</version>
+    <title>TOFX Data Services SQL Server Data Provider</title>
+    <authors>Jeff Chu @ K.NET</authors>
+    <owner>tofx</owner>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TOFX Data Services SQL Server Data Provider.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="tofx.Core.Abstractions" version="3.0.0" />
+        <dependency id="tofx.Core.Configuration" version="3.0.0" />
+        <dependency id="tofx.Core.Configuration.DotNet" version="3.0.0" />
+        <dependency id="tofx.Core.DependencyInjection" version="3.0.0" />
+        <dependency id="tofx.Core.Infrastructure" version="3.0.0" />
+        <dependency id="tofx.Core.Utils" version="3.0.0" />
+        <dependency id="tofx.Data.Abstractions" version="3.0.0" />
+        <dependency id="tofx.Data" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SQLServerProvider\bin\Debug\tofx.Data.Providers.SqlServer.dll" target="lib\net462\tofx.Data.Providers.SqlServer.dll" />
+    <file src="SQLServerProvider\bin\Debug\tofx.Data.Providers.SqlServer.pdb" target="lib\net462\tofx.Data.Providers.SqlServer.pdb" />
+  </files>
+</package>

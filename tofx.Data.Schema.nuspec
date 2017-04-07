@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tofx.Data.Schema</id>
+    <version>3.0.0</version>
+    <title>KF Framework Data Services Schema Services</title>
+    <authors>KF-RD</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>KF Framework Data Services Schema Services.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="tofx.Core.Abstractions" version="3.0.0" />
+        <dependency id="tofx.Core.Configuration" version="3.0.0" />
+        <dependency id="tofx.Core.DependencyInjection" version="3.0.0" />
+        <dependency id="tofx.Core.Infrastructure" version="3.0.0" />
+        <dependency id="tofx.Core.Utils" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DataSchema\bin\Debug\tofx.Data.Schema.dll" target="lib\net462\tofx.Data.Schema.dll" />
+    <file src="DataSchema\bin\Debug\tofx.Data.Schema.pdb" target="lib\net462\tofx.Data.Schema.pdb" />
+  </files>
+</package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tofx.Data.Annotations</id>
+    <version>3.0.0</version>
+    <title>TOFX Data Services Data Annotation Library</title>
+    <authors>Jeff Chu @ K.NET</authors>
+    <owner>tofx</owner>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TOFX Data Services Data Annotation Library.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="tofx.Core.Abstractions" version="3.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="DataAnnotation\bin\Debug\tofx.Data.Annotations.dll" target="lib\net462\tofx.Data.Annotations.dll" />
+    <file src="DataAnnotation\bin\Debug\tofx.Data.Annotations.pdb" target="lib\net462\tofx.Data.Annotations.pdb" />
+  </files>
+</package>

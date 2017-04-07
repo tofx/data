@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tofx.Data.Abstractions</id>
+    <version>3.0.0</version>
+    <title>TOFX Data Services Abstraction Library</title>
+    <authors>Jeff Chu @ K.NET</authors>
+    <owner>tofx</owner>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TOFX Data Services Abstraction Library.</description>
+  </metadata>
+  <files>
+    <file src="DataAbstractions\bin\Debug\tofx.Data.Abstractions.dll" target="lib\net462\tofx.Data.Abstractions.dll" />
+    <file src="DataAbstractions\bin\Debug\tofx.Data.Abstractions.pdb" target="lib\net462\tofx.Data.Abstractions.pdb" />
+  </files>
+</package>
