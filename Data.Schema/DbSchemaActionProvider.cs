@@ -1,12 +1,12 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Core.Utils;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Schema
+namespace tofx.Data.Schema
 {
     public class DbSchemaActionProvider : IDbSchemaActionProvider
     {

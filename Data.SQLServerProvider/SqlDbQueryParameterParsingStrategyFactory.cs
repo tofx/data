@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.ParameterParsingStrategies;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.ParameterParsingStrategies;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbQueryParameterParsingStrategyFactory : IDbQueryParameterParsingStrategyFactory
     {

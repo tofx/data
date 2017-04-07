@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions.SqlFunctions.String
+namespace tofx.Data.Providers.SqlServer.Expressions.SqlFunctions.String
 {
     public class SqlDbQueryFunctionLengthNode : SqlDbQueryExpressionNode, IDbQueryFunctionNode
     {   

@@ -1,9 +1,9 @@
-﻿using TOF.Data.Abstractions;
+﻿using tofx.Data.Abstractions;
 using System.Data;
 using System.Reflection;
 using System;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbModelPropertyStrategy : IDbModelPropertyStrategy
     {

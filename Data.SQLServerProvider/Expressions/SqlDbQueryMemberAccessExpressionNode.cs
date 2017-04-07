@@ -4,11 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
-using TOF.Data.Providers.SqlServer.Expressions.SqlFunctions;
-using TOF.Core.Utils.TypeExtensions;
-using TOF.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.Expressions.SqlFunctions;
+using tofx.Core.Utils.TypeExtensions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions
+namespace tofx.Data.Providers.SqlServer.Expressions
 {
     public class SqlDbQueryMemberAccessExpressionNode : SqlDbQueryExpressionNode
     {

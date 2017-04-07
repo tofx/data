@@ -1,7 +1,7 @@
-﻿using TOF.Core.Abstractions;
+﻿using tofx.Core.Abstractions;
 using System;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     [AttributeUsage(AttributeTargets.Property, Inherited = true, AllowMultiple = false)]
     public class RequiredAttribute : Attribute, IValidateAttribute

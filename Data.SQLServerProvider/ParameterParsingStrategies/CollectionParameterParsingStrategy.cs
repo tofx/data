@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using TOF.Core.Utils;
-using TOF.Core.Utils.TypeExtensions;
-using TOF.Data.Abstractions;
+using tofx.Core.Utils;
+using tofx.Core.Utils.TypeExtensions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.ParameterParsingStrategies
+namespace tofx.Data.Providers.SqlServer.ParameterParsingStrategies
 {
     public class CollectionParameterParsingStrategy : 
         IDbQueryParameterParsingStrategy, IDbQueryCollectionParameterParsingStrategy

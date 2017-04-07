@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public class DbAggregateException : Exception
     {

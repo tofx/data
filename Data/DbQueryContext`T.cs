@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
-using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Core.Utils;
-using TOF.Data.Abstractions;
+using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Core.Utils;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbQueryContext<TModel> : IDbQueryContext<TModel> where TModel : class, new()
     {

@@ -1,14 +1,14 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using TOF.Core.Utils.TypeExtensions;
-using TOF.Data.Abstractions;
+using tofx.Core.Utils.TypeExtensions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbModelStrategy : IDbModelStrategy
     {

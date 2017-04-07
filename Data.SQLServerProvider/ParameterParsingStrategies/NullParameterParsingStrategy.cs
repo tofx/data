@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Data;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.ParameterParsingStrategies
+namespace tofx.Data.Providers.SqlServer.ParameterParsingStrategies
 {
     public class NullParameterParsingStrategy : IDbQueryParameterParsingStrategy
     {

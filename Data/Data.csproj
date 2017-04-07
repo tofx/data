@@ -7,10 +7,11 @@
     <ProjectGuid>{2EDB085F-9E3E-4CAD-B490-4D242A3D4AB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TOF.Data</RootNamespace>
-    <AssemblyName>TOF.Data</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>tofx.Data</RootNamespace>
+    <AssemblyName>tofx.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +39,24 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="tofx.Core.Abstractions, Version=3.0.0.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Abstractions.3.0.0\lib\net462\tofx.Core.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Configuration, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Configuration.3.0.0\lib\net462\tofx.Core.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Configuration.DotNet, Version=3.0.0.36, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Configuration.DotNet.3.0.0\lib\net462\tofx.Core.Configuration.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.DependencyInjection, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.DependencyInjection.3.0.0\lib\net462\tofx.Core.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Infrastructure, Version=3.0.0.34, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Infrastructure.3.0.0\lib\net462\tofx.Core.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Utils, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Utils.3.0.0\lib\net462\tofx.Core.Utils.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClrTypeHelper.cs" />
@@ -69,30 +88,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core.Abstractions\Core.Abstractions.csproj">
-      <Project>{d99b16d4-829f-47f9-8530-eaf517bdab70}</Project>
-      <Name>Core.Abstractions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Configuration.DotNet\Core.Configuration.DotNet.csproj">
-      <Project>{d70fb0e8-6d9f-474e-a23c-3da7aa4618cd}</Project>
-      <Name>Core.Configuration.DotNet</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Configuration\Core.Configuration.csproj">
-      <Project>{9dd88232-d15b-44a3-8f28-f4c37245e49a}</Project>
-      <Name>Core.Configuration</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.DependencyInjection\Core.DependencyInjection.csproj">
-      <Project>{8f4c4c50-c046-499a-ad78-2e55f51a123a}</Project>
-      <Name>Core.DependencyInjection</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj">
-      <Project>{aa9700ad-96a0-40bd-8bca-55870b8c6706}</Project>
-      <Name>Core.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Utils\Core.Utils.csproj">
-      <Project>{230e597f-ec69-4367-8339-c4a87eb042e2}</Project>
-      <Name>Core.Utils</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Data.Abstractions\Data.Abstractions.csproj">
       <Project>{cad078c1-1df3-4035-8976-d6c8dee756b7}</Project>
       <Name>Data.Abstractions</Name>
@@ -101,6 +96,9 @@
       <Project>{f0a2e8cc-1442-4023-9e3e-9c24277ecc5d}</Project>
       <Name>Data.Annotation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

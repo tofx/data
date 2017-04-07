@@ -1,13 +1,13 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbExecuteContext<TModel> : IDbExecuteContext<TModel> where TModel : class, new()
     {

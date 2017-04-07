@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions.SqlFunctions
+namespace tofx.Data.Providers.SqlServer.Expressions.SqlFunctions
 {
     public class SqlDbFunctionsLoader
     {

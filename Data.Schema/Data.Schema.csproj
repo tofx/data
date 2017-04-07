@@ -7,10 +7,11 @@
     <ProjectGuid>{C25E9AC4-19BD-4C35-A782-F6573628032D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TOF.Data.Schema</RootNamespace>
-    <AssemblyName>TOF.Data.Schema</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>tofx.Data.Schema</RootNamespace>
+    <AssemblyName>tofx.Data.Schema</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +39,24 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="tofx.Core.Abstractions, Version=3.0.0.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Abstractions.3.0.0\lib\net462\tofx.Core.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Configuration, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Configuration.3.0.0\lib\net462\tofx.Core.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Configuration.DotNet, Version=3.0.0.36, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Configuration.DotNet.3.0.0\lib\net462\tofx.Core.Configuration.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.DependencyInjection, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.DependencyInjection.3.0.0\lib\net462\tofx.Core.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Infrastructure, Version=3.0.0.34, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Infrastructure.3.0.0\lib\net462\tofx.Core.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="tofx.Core.Utils, Version=3.0.0.35, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\tofx.Core.Utils.3.0.0\lib\net462\tofx.Core.Utils.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbSchemaActionProvider.cs" />
@@ -46,26 +65,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Core.Abstractions\Core.Abstractions.csproj">
-      <Project>{d99b16d4-829f-47f9-8530-eaf517bdab70}</Project>
-      <Name>Core.Abstractions</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Configuration\Core.Configuration.csproj">
-      <Project>{9dd88232-d15b-44a3-8f28-f4c37245e49a}</Project>
-      <Name>Core.Configuration</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.DependencyInjection\Core.DependencyInjection.csproj">
-      <Project>{8f4c4c50-c046-499a-ad78-2e55f51a123a}</Project>
-      <Name>Core.DependencyInjection</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj">
-      <Project>{aa9700ad-96a0-40bd-8bca-55870b8c6706}</Project>
-      <Name>Core.Infrastructure</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core.Utils\Core.Utils.csproj">
-      <Project>{230e597f-ec69-4367-8339-c4a87eb042e2}</Project>
-      <Name>Core.Utils</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Data.Abstractions\Data.Abstractions.csproj">
       <Project>{cad078c1-1df3-4035-8976-d6c8dee756b7}</Project>
       <Name>Data.Abstractions</Name>
@@ -74,6 +73,9 @@
       <Project>{2edb085f-9e3e-4cad-b490-4d242a3d4ab0}</Project>
       <Name>Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

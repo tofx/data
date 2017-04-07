@@ -1,8 +1,8 @@
-﻿using TOF.Core.Utils;
+﻿using tofx.Core.Utils;
 using System;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.SchemaStrategies
+namespace tofx.Data.Providers.SqlServer.SchemaStrategies
 {
     public class SqlDbSchemaAlterTableStrategy : IDbSchemaStrategy
     {

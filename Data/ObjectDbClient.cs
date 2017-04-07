@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
-using TOF.Data.Annotations;
-using TOF.Data.Abstractions;
-using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
+using tofx.Data.Annotations;
+using tofx.Data.Abstractions;
+using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class ObjectDbClient : IDisposable
     {

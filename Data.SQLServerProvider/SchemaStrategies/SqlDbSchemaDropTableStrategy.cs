@@ -1,12 +1,12 @@
-﻿using TOF.Core.Utils;
+﻿using tofx.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.SchemaStrategies
+namespace tofx.Data.Providers.SqlServer.SchemaStrategies
 {
     public class SqlDbSchemaDropTableStrategy : IDbSchemaStrategy
     {

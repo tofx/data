@@ -1,8 +1,8 @@
-﻿using TOF.Core.Abstractions;
+﻿using tofx.Core.Abstractions;
 using System;
 using System.Collections.Generic;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     // TODO: implement ILogRequriedException interface.
     public class DbMultipleOperationsException : Exception, ILoggableException

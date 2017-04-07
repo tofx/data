@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Text;
 
-namespace TOF.Data.Providers.SqlServer.Expressions
+namespace tofx.Data.Providers.SqlServer.Expressions
 {
     public class SqlDbQueryAddExpressionNode : SqlDbQueryExpressionNode
     {

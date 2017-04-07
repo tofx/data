@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbQueryContext<TModel> : IEnumerable<TModel> where TModel: class, new()
     {

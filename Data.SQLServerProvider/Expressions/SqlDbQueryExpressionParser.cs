@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions
+namespace tofx.Data.Providers.SqlServer.Expressions
 {
     public class SqlDbQueryExpressionParser : IDbQueryExpressionParser
     {

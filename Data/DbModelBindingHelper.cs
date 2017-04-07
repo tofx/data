@@ -1,15 +1,15 @@
-﻿using TOF.Core.Abstractions;
-using TOF.Core.Utils;
-using TOF.Core.Utils.TypeConverters;
-using TOF.Core.Utils.TypeExtensions;
+﻿using tofx.Core.Abstractions;
+using tofx.Core.Utils;
+using tofx.Core.Utils.TypeConverters;
+using tofx.Core.Utils.TypeExtensions;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Reflection;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public static class DbModelBindingHelper
     {

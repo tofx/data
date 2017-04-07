@@ -1,4 +1,4 @@
-﻿namespace TOF.Data
+﻿namespace tofx.Data
 {
     public enum DbQueryStrategyTypes
     {

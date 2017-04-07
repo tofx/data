@@ -1,9 +1,9 @@
-﻿using TOF.Core.Utils;
+﻿using tofx.Core.Utils;
 using System;
 using System.Text;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.QueryStrategies
+namespace tofx.Data.Providers.SqlServer.QueryStrategies
 {
     public class SqlDbEmptyStrategy : DbQueryStrategyBase
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Threading;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbServiceProvider : IDbServiceProvider
     {

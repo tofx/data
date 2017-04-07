@@ -1,11 +1,11 @@
-﻿using TOF.Data.Providers.SqlServer.Expressions.SqlFunctions.Collections;
+﻿using tofx.Data.Providers.SqlServer.Expressions.SqlFunctions.Collections;
 using System;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions.SqlFunctions.String
+namespace tofx.Data.Providers.SqlServer.Expressions.SqlFunctions.String
 {
     using System.Collections.Generic;
     using SqlQueryFunctionCollectionContainsNode = SqlDbQueryFunctionCollectionContainsNode;

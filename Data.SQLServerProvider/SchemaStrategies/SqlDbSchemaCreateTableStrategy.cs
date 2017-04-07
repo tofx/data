@@ -1,13 +1,13 @@
-﻿using TOF.Data.Providers.SqlServer.MapType;
-using TOF.Core.Utils;
+﻿using tofx.Data.Providers.SqlServer.MapType;
+using tofx.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.SchemaStrategies
+namespace tofx.Data.Providers.SqlServer.SchemaStrategies
 {
     public class SqlDbSchemaCreateTableStrategy : IDbSchemaStrategy
     {

@@ -1,4 +1,4 @@
-﻿using TOF.Data.Providers.SqlServer.Expressions;
+﻿using tofx.Data.Providers.SqlServer.Expressions;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Linq;
 using System.Data.SqlClient;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.QueryStrategies
+namespace tofx.Data.Providers.SqlServer.QueryStrategies
 {
     public class SqlDbSelectAggregateStrategy<TModel> : DbQueryStrategyBase<TModel> where TModel : class, new()
     {

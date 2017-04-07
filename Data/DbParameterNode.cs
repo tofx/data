@@ -1,11 +1,11 @@
-﻿using TOF.Core.Utils.TypeExtensions;
+﻿using tofx.Core.Utils.TypeExtensions;
 using System;
 using System.Data;
 using System.Reflection;
-using TOF.Core.Utils;
-using TOF.Data.Abstractions;
+using tofx.Core.Utils;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public abstract class DbParameterNode : IDbParameterChainNode
     {

@@ -1,6 +1,6 @@
-﻿using TOF.Data.Abstractions;
+﻿using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbProviderOptions : IDbProviderOptions
     {

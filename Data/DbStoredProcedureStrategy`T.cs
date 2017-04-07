@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq.Expressions;
-using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Data.Abstractions;
+using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbStoredProcedureStrategy<TModel> : IDbStoredProcedureStrategy<TModel> where TModel: class, new()
     {

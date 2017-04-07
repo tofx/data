@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.ParameterNodes;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.ParameterNodes;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbParamChainProvider : IDbParamChainProvider
     {

@@ -1,10 +1,10 @@
-﻿using TOF.Core.Configuration;
-using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Core.Utils;
-using TOF.Data.Abstractions;
+﻿using tofx.Core.Configuration;
+using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Core.Utils;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     //public class DbServiceProviderResolver
     //{

@@ -1,8 +1,8 @@
-﻿using TOF.Data.Abstractions;
+﻿using tofx.Data.Abstractions;
 using System.Collections.Generic;
 using System.Data;
 
-namespace TOF.Data.Providers.SqlServer.InspectorStrategies
+namespace tofx.Data.Providers.SqlServer.InspectorStrategies
 {
     public class SqlDbEnumTableInspectorStrategy : IDbEnumTableInspectorStrategy
     {

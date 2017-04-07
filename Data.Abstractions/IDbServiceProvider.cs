@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbServiceProvider : IDbTransactionProvider, IDisposable
     {

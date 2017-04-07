@@ -1,7 +1,7 @@
-﻿using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.SchemaStrategies;
+﻿using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.SchemaStrategies;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbSchemaStrategyProvider : IDbSchemaStrategyProvider
     {

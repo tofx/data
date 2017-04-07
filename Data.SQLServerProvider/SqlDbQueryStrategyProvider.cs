@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.QueryStrategies;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.QueryStrategies;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbQueryStrategyProvider : IDbQueryStrategyProvider
     {

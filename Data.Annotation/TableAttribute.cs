@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
     public class TableAttribute : Attribute

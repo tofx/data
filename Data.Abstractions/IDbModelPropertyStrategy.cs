@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Reflection;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbModelPropertyStrategy
     {

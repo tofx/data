@@ -1,7 +1,7 @@
-﻿using TOF.Data.Abstractions;
+﻿using tofx.Data.Abstractions;
 using System;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class IgnoreAttribute : Attribute

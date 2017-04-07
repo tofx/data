@@ -1,13 +1,13 @@
-﻿using TOF.Core.Utils;
-using TOF.Core.Utils.TypeConverters;
+﻿using tofx.Core.Utils;
+using tofx.Core.Utils.TypeConverters;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbStoreProcdureInvoker<TModel> : IDbStoredProcedureInvoker<TModel> where TModel : class, new()
     {

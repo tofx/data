@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.ParameterNodes
+namespace tofx.Data.Providers.SqlServer.ParameterNodes
 {
     public class SqlDbParamByteNode : DbParameterNode
     {

@@ -1,11 +1,11 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Schema
+namespace tofx.Data.Schema
 {
     public static class DbSchemaInitializer
     {

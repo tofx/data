@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbStoredProcedureStrategy<TModel> : IDbStoredProcedureStrategy where TModel: class, new()
     {

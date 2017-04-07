@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbStoredProcedureInvoker<in TModel> where TModel: class, new()
     {

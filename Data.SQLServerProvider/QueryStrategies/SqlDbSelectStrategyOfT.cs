@@ -5,10 +5,10 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.Expressions;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.Expressions;
 
-namespace TOF.Data.Providers.SqlServer.QueryStrategies
+namespace tofx.Data.Providers.SqlServer.QueryStrategies
 {
     public class SqlDbSelectStrategy<TModel> : DbQueryStrategyBase<TModel>
         where TModel : class, new()

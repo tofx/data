@@ -1,11 +1,11 @@
-﻿using TOF.Data.Providers.SqlServer.Expressions.SqlFunctions;
+﻿using tofx.Data.Providers.SqlServer.Expressions.SqlFunctions;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.Expressions
+namespace tofx.Data.Providers.SqlServer.Expressions
 {
     public class SqlDbQueryCallExpressionNode : SqlDbQueryExpressionNode
     {

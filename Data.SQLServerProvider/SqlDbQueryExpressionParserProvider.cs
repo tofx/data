@@ -1,7 +1,7 @@
-﻿using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.Expressions;
+﻿using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.Expressions;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbQueryExpressionParserProvider : IDbQueryExpressionParserProvider
     {

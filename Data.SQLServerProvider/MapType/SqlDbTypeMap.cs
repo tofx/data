@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Data;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.MapType
+namespace tofx.Data.Providers.SqlServer.MapType
 {
     public class SqlDbTypeMap : IDbTypeMap
     {

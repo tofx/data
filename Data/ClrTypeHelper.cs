@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public static class ClrTypeHelper
     {

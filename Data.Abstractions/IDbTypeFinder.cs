@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public interface IDbTypeFinder
     {

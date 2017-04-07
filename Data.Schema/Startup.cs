@@ -1,11 +1,11 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Utils;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Utils;
 using System.Collections.Generic;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-[assembly: Startup(typeof(TOF.Data.Schema.Startup))]
+[assembly: Startup(typeof(tofx.Data.Schema.Startup))]
 
-namespace TOF.Data.Schema
+namespace tofx.Data.Schema
 {
     public class Startup
     {

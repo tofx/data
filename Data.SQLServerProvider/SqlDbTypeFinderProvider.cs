@@ -1,7 +1,7 @@
-﻿using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.MapType;
+﻿using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.MapType;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class SqlDbTypeFinderProvider : IDbTypeFinderProvider
     {

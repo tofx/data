@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     /// <summary>
     /// Mark the property as auto-incremental column in database.

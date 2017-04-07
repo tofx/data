@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using TOF.Core.Utils.TypeExtensions;
-using TOF.Data.Abstractions;
+using tofx.Core.Utils.TypeExtensions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.ParameterNodes
+namespace tofx.Data.Providers.SqlServer.ParameterNodes
 {
     public class SqlDbParamBooleanNode : DbParameterNode
     {

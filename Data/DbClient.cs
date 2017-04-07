@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TOF.Core.Infrastructure;
-using TOF.Core.Utils;
-using TOF.Data.Abstractions;
+using tofx.Core.Infrastructure;
+using tofx.Core.Utils;
+using tofx.Data.Abstractions;
 using System.Data;
 using System.Dynamic;
-using TOF.Core.DependencyInjection;
+using tofx.Core.DependencyInjection;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbClient : IDbClient, IDisposable
     {

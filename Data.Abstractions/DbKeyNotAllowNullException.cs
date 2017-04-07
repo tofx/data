@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TOF.Data.Abstractions
+namespace tofx.Data.Abstractions
 {
     public class DbKeyNotAllowNullException : Exception
     {

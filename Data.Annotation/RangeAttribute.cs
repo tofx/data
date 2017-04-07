@@ -1,8 +1,8 @@
-﻿using TOF.Core.Abstractions;
+﻿using tofx.Core.Abstractions;
 using System;
 using System.ComponentModel;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = true)]
     public class RangeAttribute : Attribute, IValidateAttribute

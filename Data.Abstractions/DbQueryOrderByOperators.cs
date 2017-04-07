@@ -1,4 +1,4 @@
-﻿namespace TOF.Data.Abstractions
+﻿namespace tofx.Data.Abstractions
 {
     public enum DbQueryOrderByOperators
     {

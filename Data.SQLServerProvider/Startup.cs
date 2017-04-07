@@ -1,10 +1,10 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.InspectorStrategies;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.InspectorStrategies;
 
-[assembly: Startup(typeof(TOF.Data.Providers.SqlServer.Startup))]
+[assembly: Startup(typeof(tofx.Data.Providers.SqlServer.Startup))]
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public class Startup
     {

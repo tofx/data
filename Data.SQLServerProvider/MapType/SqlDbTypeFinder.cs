@@ -4,9 +4,9 @@ using System.Data;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Xml;
-using TOF.Data.Abstractions;
+using tofx.Data.Abstractions;
 
-namespace TOF.Data.Providers.SqlServer.MapType
+namespace tofx.Data.Providers.SqlServer.MapType
 {
     public class SqlDbTypeFinder : IDbTypeFinder
     {

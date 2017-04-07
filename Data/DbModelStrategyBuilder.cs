@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TOF.Data.Abstractions;
-using TOF.Data.Annotations;
+using tofx.Data.Abstractions;
+using tofx.Data.Annotations;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbModelStrategyBuilder
     {

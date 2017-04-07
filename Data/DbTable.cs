@@ -1,13 +1,13 @@
-﻿using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Data.Abstractions;
+﻿using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Data.Abstractions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 
-namespace TOF.Data
+namespace tofx.Data
 {
     public class DbTable : IDbTable
     {

@@ -1,12 +1,12 @@
-﻿using TOF.Core.Configuration;
-using TOF.Core.DependencyInjection;
-using TOF.Core.Infrastructure;
-using TOF.Data.Abstractions;
-using TOF.Data.Providers.SqlServer.Expressions;
-using TOF.Data.Providers.SqlServer.InspectorStrategies;
+﻿using tofx.Core.Configuration;
+using tofx.Core.DependencyInjection;
+using tofx.Core.Infrastructure;
+using tofx.Data.Abstractions;
+using tofx.Data.Providers.SqlServer.Expressions;
+using tofx.Data.Providers.SqlServer.InspectorStrategies;
 using System;
 
-namespace TOF.Data.Providers.SqlServer
+namespace tofx.Data.Providers.SqlServer
 {
     public static class ContainerBuilderExtensions
     {

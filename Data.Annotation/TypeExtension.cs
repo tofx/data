@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace TOF.Data.Annotations
+namespace tofx.Data.Annotations
 {
     public static class TypeExtension
     {

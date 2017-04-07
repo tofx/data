@@ -7,10 +7,11 @@
     <ProjectGuid>{CAD078C1-1DF3-4035-8976-D6C8DEE756B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TOF.Data.Abstractions</RootNamespace>
-    <AssemblyName>TOF.Data.Abstractions</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>tofx.Data.Abstractions</RootNamespace>
+    <AssemblyName>tofx.Data.Abstractions</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
