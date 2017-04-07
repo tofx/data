@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EDB085F-9E3E-4CAD-B490-4D242A3D4AB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TOF.Data</RootNamespace>
+    <AssemblyName>TOF.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClrTypeHelper.cs" />
+    <Compile Include="DbClient.cs" />
+    <Compile Include="DbEnvironmentException.cs" />
+    <Compile Include="DbExecuteContext.cs" />
+    <Compile Include="DbModelBindingHelper.cs" />
+    <Compile Include="DbModelPropertyStrategy.cs" />
+    <Compile Include="DbModelStrategy.cs" />
+    <Compile Include="DbModelStrategyBuilder.cs" />
+    <Compile Include="DbModelStrategy`T.cs" />
+    <Compile Include="DbMultipleOperationsException.cs" />
+    <Compile Include="DbOperationException.cs" />
+    <Compile Include="DbParameterNode.cs" />
+    <Compile Include="DbParameterParser.cs" />
+    <Compile Include="DbProviderOptions.cs" />
+    <Compile Include="DbQueryContext`T.cs" />
+    <Compile Include="DbQueryStrategyBase.cs" />
+    <Compile Include="DbQueryStrategyBase`T.cs" />
+    <Compile Include="DbQueryStrategyTypes.cs" />
+    <Compile Include="DbServiceProviderResolver.cs" />
+    <Compile Include="DbStoredProcedureStrategy.cs" />
+    <Compile Include="DbStoredProcedureStrategy`T.cs" />
+    <Compile Include="DbStoreProcedureInvoker`T.cs" />
+    <Compile Include="DbTable.cs" />
+    <Compile Include="DbInspector.cs" />
+    <Compile Include="DbTable`T.cs" />
+    <Compile Include="ObjectDbClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Abstractions\Core.Abstractions.csproj">
+      <Project>{d99b16d4-829f-47f9-8530-eaf517bdab70}</Project>
+      <Name>Core.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Configuration.DotNet\Core.Configuration.DotNet.csproj">
+      <Project>{d70fb0e8-6d9f-474e-a23c-3da7aa4618cd}</Project>
+      <Name>Core.Configuration.DotNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Configuration\Core.Configuration.csproj">
+      <Project>{9dd88232-d15b-44a3-8f28-f4c37245e49a}</Project>
+      <Name>Core.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.DependencyInjection\Core.DependencyInjection.csproj">
+      <Project>{8f4c4c50-c046-499a-ad78-2e55f51a123a}</Project>
+      <Name>Core.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Infrastructure\Core.Infrastructure.csproj">
+      <Project>{aa9700ad-96a0-40bd-8bca-55870b8c6706}</Project>
+      <Name>Core.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core.Utils\Core.Utils.csproj">
+      <Project>{230e597f-ec69-4367-8339-c4a87eb042e2}</Project>
+      <Name>Core.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Abstractions\Data.Abstractions.csproj">
+      <Project>{cad078c1-1df3-4035-8976-d6c8dee756b7}</Project>
+      <Name>Data.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data.Annotation\Data.Annotation.csproj">
+      <Project>{f0a2e8cc-1442-4023-9e3e-9c24277ecc5d}</Project>
+      <Name>Data.Annotation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

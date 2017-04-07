@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAD078C1-1DF3-4035-8976-D6C8DEE756B7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TOF.Data.Abstractions</RootNamespace>
+    <AssemblyName>TOF.Data.Abstractions</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbAggregateException.cs" />
+    <Compile Include="DbChangeNoAffectException.cs" />
+    <Compile Include="DbColumnDescriptor.cs" />
+    <Compile Include="DbIgnorePropertyKinds.cs" />
+    <Compile Include="DbKeyNotAllowNullException.cs" />
+    <Compile Include="DbObjectTypes.cs" />
+    <Compile Include="DbQueryAggregateMode.cs" />
+    <Compile Include="DbQueryColumnClause`T.cs" />
+    <Compile Include="DbQueryConditionOperators.cs" />
+    <Compile Include="DbQueryGroupByClause`T.cs" />
+    <Compile Include="DbQueryOrderByClause`T.cs" />
+    <Compile Include="DbQueryOrderByOperators.cs" />
+    <Compile Include="DbQueryWhereClause`T.cs" />
+    <Compile Include="DbSchemaStrategyTypes.cs" />
+    <Compile Include="DbTableDescriptor.cs" />
+    <Compile Include="IDbClient.cs" />
+    <Compile Include="IDbEnumTableInspectorStrategy.cs" />
+    <Compile Include="IDbExecuteContext`T.cs" />
+    <Compile Include="IDbModelPropertyStrategy.cs" />
+    <Compile Include="IDbModelStrategy.cs" />
+    <Compile Include="IDbModelStrategy`T.cs" />
+    <Compile Include="IDbObject.cs" />
+    <Compile Include="IDbParamChainProvider.cs" />
+    <Compile Include="IDbParameterChainNode.cs" />
+    <Compile Include="IDbParameterParser.cs" />
+    <Compile Include="IDbProviderOptions.cs" />
+    <Compile Include="IDbQueryCollectionParameterParsingStrategy.cs" />
+    <Compile Include="IDbQueryContext`T.cs" />
+    <Compile Include="IDbQueryExpressionMemberNameParser.cs" />
+    <Compile Include="IDbQueryExpressionMemberNameParserProvider.cs" />
+    <Compile Include="IDbQueryExpressionNode.cs" />
+    <Compile Include="IDbQueryExpressionParser.cs" />
+    <Compile Include="IDbQueryExpressionParserProvider.cs" />
+    <Compile Include="IDbQueryFunctionNode.cs" />
+    <Compile Include="IDbQueryPagingStrategy.cs" />
+    <Compile Include="IDbQueryParameterParsingStrategyFactory.cs" />
+    <Compile Include="IDbQueryStrategy.cs" />
+    <Compile Include="IDbQueryStrategyProvider.cs" />
+    <Compile Include="IDbQueryValueIncreDecreStrategy.cs" />
+    <Compile Include="IDbSchemaActionProvider.cs" />
+    <Compile Include="IDbSchemaStrategy.cs" />
+    <Compile Include="IDbSchemaStrategyProvider.cs" />
+    <Compile Include="IDbServiceProvider.cs" />
+    <Compile Include="IDbStoredProcedureInvoker`T.cs" />
+    <Compile Include="IDbStoredProcedureStrategy.cs" />
+    <Compile Include="IDbStoredProcedureStrategy`T.cs" />
+    <Compile Include="IDbTable.cs" />
+    <Compile Include="IDbTableInspectorStrategy.cs" />
+    <Compile Include="IDbTable`T.cs" />
+    <Compile Include="IDbTransactionProvider.cs" />
+    <Compile Include="IDbTypeFinder.cs" />
+    <Compile Include="IDbTypeFinderProvider.cs" />
+    <Compile Include="IDbTypeMap.cs" />
+    <Compile Include="IDbQueryParameterParsingStrategy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
